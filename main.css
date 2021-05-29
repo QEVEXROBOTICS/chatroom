@@ -1,0 +1,115 @@
+@font-face {
+  src: url(fonts/OdibeeSans-Regular.ttf);
+  font-family: "odibeesans";
+  font-style: normal;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 60px;
+  color: lightblue;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  padding: -10px;
+  font-size: 70px;
+  text-align: center;
+}
+h3 {
+  font-size: 50px;
+  background: linear-gradient(
+    90deg,
+    hsla(281, 79%, 57%, 1) 0%,
+    hsla(235, 90%, 62%, 1) 100%
+  );
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: black;
+}
+
+.members-count {
+  border: none;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  background: lightblue;
+  width: 300px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.members-list {
+  border: none;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  color: white;
+}
+.messages {
+  border: none;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #8a8f98;
+  color: white;
+}
+
+.messages {
+  flex-shrink: 1;
+  overflow: auto;
+}
+
+.message {
+  padding: 5px 0;
+}
+.message .member {
+  display: inline-block;
+}
+
+.member {
+  padding-right: 10px;
+  position: relative;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  text-align: left;
+}
+
+.message-form {
+  display: flex;
+  flex-shrink: 0;
+}
+.message-form__input {
+  flex-grow: 1;
+  margin: 2px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.message-form__button {
+  margin: 1px;
+  background-image: url(https://uploads-ssl.webflow.com/5ffc199…/5ffc25c…_arrow.svg),
+    linear-gradient(120deg, #b03be8, #4958f5);
+  border: none;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 7px;
+}
