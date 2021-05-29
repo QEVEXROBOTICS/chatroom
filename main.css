@@ -76,6 +76,7 @@ body {
 
 .message {
   padding: 5px 0;
+  font-size: 25px;
 }
 
 .message .member {
