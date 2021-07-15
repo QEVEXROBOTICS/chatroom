@@ -4,7 +4,9 @@
   font-style: normal;
   font-weight: 100;
 }
-
+body{
+  background: black;
+}
 h1 {
   font-size: 60px;
   background-color: #f3ec78;
