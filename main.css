@@ -142,8 +142,7 @@ body {
 
 .message-form__button {
   margin: 1px;
-  background-image: url(https://uploads-ssl.webflow.com/5ffc199…/5ffc25c…_arrow.svg),
-    linear-gradient(120deg, #b03be8, #4958f5);
+  background: black;
   border: none;
   color: white;
   padding: 5px 20px 5px 20px;
